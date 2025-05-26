@@ -14,7 +14,7 @@ db.restaurant = require('../models/index') (sequelize , DataTypes)
 
 sequelize.authenticate()
 .then(()=>{
-     console.log("✅ Connected to database successfullyyyyyyyyyyyydddddddddddddddddddd")
+     console.log("✅ Connected to database successfullyyyyyyyyyyyydddjjjjjjjjjjjjddddddddddddddddd")
 })
 .catch((error)=>{
     console.log("❌ Unable to connect to the database:" , error)
